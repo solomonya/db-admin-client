@@ -6,11 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "lint": "yarn run eslint .eslintrc.cjs --fix",
+    "format": "yarn prettier --write .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/material": "^5.10.17",
     "@tanstack/react-query": "^4.16.1",
-    "antd": "^5.0.1",
     "ky": "^0.32.2",
     "mobx": "^6.7.0",
     "mobx-react-lite": "^3.4.0",
@@ -21,8 +26,17 @@
   "devDependencies": {
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
+    "@typescript-eslint/eslint-plugin": ">=5.43.0",
+    "@typescript-eslint/parser": ">=5.43.0",
     "@vitejs/plugin-react": "^2.2.0",
-    "typescript": "^4.6.4",
+    "eslint": ">=8.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-xo": "^0.43.1",
+    "eslint-config-xo-typescript": "^0.55.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "2.8.0",
+    "typescript": ">=4.4",
     "vite": "^3.2.3"
   }
 }

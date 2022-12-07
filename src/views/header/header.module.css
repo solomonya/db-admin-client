@@ -1,0 +1,11 @@
+.header {
+  background-color: #2962ff;
+  height: 50px;
+  padding: 15px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: #fff;
+}

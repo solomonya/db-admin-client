@@ -15,6 +15,8 @@ export default class User implements IUser {
   }
 
   get initials() {
-    return `${this.username[0].toUpperCase()}${this.username[this.username.indexOf(' ') + 1]}`
+    return `${this.username[0].toUpperCase()}${
+      this.username[this.username.indexOf(' ') + 1]
+    }`;
   }
 }

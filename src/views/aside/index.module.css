@@ -1,0 +1,8 @@
+.aside {
+  padding: 10px;
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
